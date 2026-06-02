@@ -2,7 +2,7 @@ pyrogram
 pymongo[srv]==3.12.3
 aiohttp
 pydub
-pytubefix
+pytube
 tgcrypto
 ffmpeg
 flask
