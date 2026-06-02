@@ -2,6 +2,8 @@ from pyrogram import Client, idle
 from config import Config
 from flask import Flask
 from threading import Thread
+# Pytubefix ka use karein error 400 fix karne ke liye
+from pytubefix import YouTube 
 
 # Web server taaki Render port detect kar sake
 app = Flask(__name__)
