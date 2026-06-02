@@ -2,7 +2,7 @@ from pyrogram import Client, idle
 from config import Config
 from flask import Flask
 from threading import Thread
-from pytubefix import Youtube , Playlist 
+from pytube import Youtube , Playlist 
 # Web server taaki Render port detect kar sake
 app = Flask(__name__)
 @app.route('/')
